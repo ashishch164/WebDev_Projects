@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form  name="StudentRegistrationForm"  >
+
+        <table cellpadding="2" width="20"  align="center"
+        
+          cellspacing="2">
+          <center>*Check the details before submitting*</center>
+        
+        
+        <tr>
+        
+          <td colspan=2>
+        
+          <center><h2><u><b>Student Registration Form</u></b></h2></center>
+        
+          </td>
+        
+          </tr>
+        
+        
+        <tr>
+        
+          <td>Name :</td>
+        
+         <td><input type=text name="textnames" placeholder="Enter your name here.." ></td>       
+        
+          </tr>
+        
+        
+        <tr>
+        
+          <td>Father's Name/Guardian's Name :</td>
+        
+          <td><input type="text" name="fathername" ></td>
+        
+          </tr>
+
+          <tr>
+        
+            <td>Blood Group :</td>
+          
+            <td><select name="Blood Group">
+          
+            <option  selected>choose..</option>
+          
+            <option value="A+ve">A+ve</option>
+          
+            <option value="A-ve">A-ve</option>
+          
+            <option value="O+ve">O+ve</option>
+            <option value="O-ve">O-ve</option>
+            <option value="B+ve">B+ve</option>
+            <option value="B-ve">B-ve</option>
+            <option value="AB+ve">AB+ve</option>
+            <option value="AB-ve">AB-ve</option>
+
+            </select></td>
+          
+            </tr>
+        
+          <tr>
+        
+          <td>Resedential Address :</td>
+        
+          <td><input type="text" name="address"  ></td>
+        
+          </tr>
+        
+          <tr>
+        
+            <td>PinCode :</td>
+          
+            <td><input type="number" name="pincode" placeholder="Maxm length is 6" ></td>
+          
+    
+          
+            <tr>
+        
+        
+        </tr>
+        
+        <tr>
+      
+        <td>EmailId :</td>
+      
+        <td><input type="email" name="emailid" ></td>
+      
+        </tr>
+          
+        
+        
+        <tr>
+        
+          <td>Gender :</td>
+        
+          <td><input type="radio" name="sex" value="male" >Male
+        
+          <input type="radio" name="sex" value="Female" >Female<br>
+          <input type="radio" name="sex" value="Transgender">Transgender</td>
+
+        
+          </tr>
+        
+          <tr>
+        
+            <td>MobileNo :&nbsp;&nbsp;&nbsp;+91</td>
+            <td><input type="text" placeholder="only 10 digit number" name="mobileno" maxlength="10"></td>         <!--isse user only 10 digit daalskta h ,wo string bhi daalskta h and number bhi but agar hum type="number"likhte h and maxlength bhi lagate h tb user only number daalskta h but maxlength nahi chalega -->
+          
+            </tr>
+            
+          
+            <tr>
+        
+                <td>DOB :</td>
+              
+                <td><input type="date" name="dob" ></td>
+              
+                </tr>
+                <tr>
+        
+            <td>Course :</td>
+          
+            <td><select name="Course">
+          
+            <option  selected>choose..</option>
+          
+            <option value="B.Tech">B.TECH</option>
+          
+            <option value="M.Tech">M.TECH</option>
+          
+            <option value="MBA">MBA</option>
+          
+            
+          
+            </select></td>
+          
+            </tr>
+          
+        <tr>
+        
+          <td>City :</td>
+        
+          <td><select name="City">
+        
+          <option  selected>choose..</option>
+        
+          <option value="New Delhi">NEW DELHI</option>
+        
+          <option value="Mumbai">MUMBAI</option>
+        
+          <option value="Gurugram">GURUGRAM</option>
+        
+          
+        
+          </select></td>
+        
+          </tr>
+        
+        
+        
+        <tr>
+        
+          <td>State :</td>
+        
+          <td><select Name="State">
+        
+          <option  selected>choose..</option>
+        
+          <option value="New Delhi">NEW DELHI</option>
+        
+          <option value="maharashtra">MAHARASHTRA</option>
+        
+          <option value="HARYANA">HARYANA</option>
+        
+
+          </select></td>
+        
+          </tr>
+
+          <td><br><input type="reset"></td>
+
+          <td colspan="2"><br><input type="submit" value="Submit Form" /></td>
+        
+          </tr>
+        
+          </table>
+        
+          </form>
+</body>
+</html>
