@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" width="800"align="center"height="600">
+        <tr align="center" >
+            <td colspan="3"><font size="6"><b><u>MY PROFILE  </td></b></font></u>
+                
+            
+        </tr align="center">
+
+        <tr>
+            <td align="center"colspan="2" ><u> My photo<br><br></u> <img align="center"width="200" height="180" src="24993614_497836320616116_4004470246492505463_n.jpg" ></td>
+            <td align="center" width="300" ><u>About me<br><br></u>
+                <p>        <!-- p is for paragraph-->
+                <b>ASHISH KUMAR</b><br>
+                Age:19 <br>
+                Mobile No.:9711783764 <br>
+                EmailId : ashishkr737@gmail.com<br>
+                Address : WZ-344-A/1,Gali no.6,Sadhnagar,palam colony,New delhi-45<br>
+                I know various coding languages,on which 
+            </p>
+                </td>
+            
+        </tr>
+
+        <tr align="center">
+            <td colspan="3"height="50"><font size="5"><u>Educational Details</td>
+            </font></u>
+                
+            
+        </tr>
+
+        <tr>
+            <td align="center"colspan="2" ><u> My College<br><br></u> <img align="center"width="250" height="300" src="cover-image-1-2.jpg" ></td>
+            <td colspan="2"align="center" width="300" ><u>Details<br><br></u>
+            <p>
+                I am doing B.Tech From DTU(formerly known as DCE),one of the best engineering college of India.<br>
+            Right now ,I am in 2nd year and I am doing B.Tech from Software Engineering(SE) branch,having average cgpa of 8.1<br><br>
+            I know about C,C++,Java,Python,HTML languages.
+            </p>
+        </tr>
+
+        <tr align="center">
+            <td colspan="3"height="50"><b><font size="6">THANK YOU</td></b></font>
+                
+                
+            
+        </tr>
+    </table>
+</body>
+</html>
