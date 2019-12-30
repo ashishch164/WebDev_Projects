@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<br>
+
+<!--//to make time table of school-->
+          <table border="2"cellpadding="6">
+            <tbody>
+                <tr>
+                    
+                    <th>Day</th>      <!--//to make bold we use th-->
+                    <th>1</th>
+                    <th>2</th>
+                      <th>3</th>
+                      
+                      <th rowspan="6">B<br>R<br>E<br>A<br>K<br></th>         <!--ye humne 3rd ke baad break likhne ke liye rowspan use kia-->
+                      <th>4</th>
+                      
+                      <th>5</th>
+                      <th>6</th>
+                  </tr>
+                  
+      
+                    <tr>
+                        <th>monday</th>
+                        <td colspan="2">english</td>     
+                        <td>hindi</td>
+                        
+                        <td colspan="2">science </td>
+                        <td>arts</td>
+                    </tr>
+               
+                
+                  <tr>
+                    <th>tuesday</th>          
+                    <td colspan="2">english </td>
+                    <td>hindi</td>
+                    
+                    <td>&nbsp;</td>     
+                    <td colspan="2">science</td>
+                  </tr>
+               
+            
+                  <tr>
+                    <th>wed</th>      
+                    <td colspan="2">english</td>
+                    <td>hindi</td>
+                    
+                    <td>science</td>
+                    <td>arts</td>
+                    <td>evs</td>
+                  </tr>
+               
+                
+                  <tr>
+                    <th>thurs</th>      
+                    <td>english</td>
+                    <td colspan="2">science</td>
+                    
+                    <td>hindi</td>
+                    <td colspan="2">games</td>
+                  </tr>
+               
+                
+                  <tr>
+                    <th>friday</th>      
+                    <td colspan="2">english</td>
+                    <td>evs</td>
+                   
+                    <td>hindi</td>
+                    <td colspan="2">games</td>
+                  </tr>
+
+
+            </tbody>
+                
+              
+          </table>
+
+          
+</body>
+</html>
