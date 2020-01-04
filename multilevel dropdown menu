@@ -1,0 +1,177 @@
+
+<!--this is HTML file named index.css-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+<ul class="main-navigation">
+            
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</li></a>
+            
+              <li><a href="#">Data Structure</a>
+            
+                <ul>
+            
+                  <li><a href="#">Linkedlist,Stack,Queue</a></li>
+            
+                  <li><a href="#">Graph</a>
+            
+                    <ul>
+            
+                      <li><a href="#">Traversal</a></li>
+            
+                      <li><a href="#">minimum spanning tree</a></li>
+            
+                      <li><a href="#">display of graph</a></li>
+            
+                    </ul>
+            
+                  </li>
+            
+                  <li><a href="#">Trees</a>
+            
+                    <ul>
+            
+                      <li><a href="#">Binary Tree</a></li>
+            
+                      <li><a href="#">Binary Search Tree(BST)</a></li>
+            
+                    </ul>
+            
+                  </li>
+            
+                </ul>
+            
+              </li>
+            
+              <li><a href="#">Classroom Courses</a>
+            
+                <ul>
+            
+                  <li><a href="#">Java</a></li>
+            
+                  <li><a href="#">C++</a></li>
+            
+                  <li><a href="#">Web Development</a>
+            
+                    <ul>
+            
+                      <li><a href="#">HTML</a></li>
+            
+                      <li><a href="#">CSS</a></li>
+                      <li><a href="#">Javascript</a></li>
+            
+                    </ul>
+            
+                  </li>
+            
+                  <li><a href="#">Android Development</a></li>
+            
+                </ul>
+            
+              </li>
+            
+              <li><a href="#">Contact Us</a></li>
+              <li> <a href="#">LOGIN/SIGN UP</li></a>
+            
+            </ul>
+            
+        
+</body>
+</html>
+
+
+
+
+/*this is CSS file named style.css*/
+
+ul {
+    
+      
+    
+      padding: 0;
+    
+      margin: 0;
+    
+      background: #1bc2a2;
+    
+    }
+    
+     
+    
+    ul li {
+    
+      display: block;
+    
+      position: relative;
+    
+      float: left;
+    
+      background: #1bc2a2;
+    
+    }
+     li ul { display: none; }
+
+ 
+
+ul li a {
+
+  display: block;
+
+  padding: 10pt;
+
+  text-decoration: solid;
+
+  
+
+  color: #fff;
+
+}
+
+ 
+
+ul li a:hover { background: #2c3e50; }
+
+
+
+li:hover > ul {
+
+  display: block;
+
+  position: absolute;
+
+}
+
+ 
+
+li:hover li { float: none; }
+
+
+
+li:hover a { background: #1bc2a2; }
+
+ 
+
+li:hover li a:hover { background: #2c3e50; }
+
+ 
+
+.main-navigation li ul li { border-top: 0; }
+
+
+ul ul ul {
+
+  left: 100%;
+
+  top: 0;
+
+}
