@@ -1,0 +1,125 @@
+/*this is HTML code in file named as index.html*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card"> 
+        <div class="upper"> 
+     <div class="image"> 
+         <img src="24993614_497836320616116_4004470246492505463_n.jpg"/>
+        </div>
+
+        <div class="lower"> 
+    <div>
+        <h3> ASHISH KUMAR
+            </h3>
+            <h4> Btech Student and front-end Developer</h4>
+    </div> 
+    <div> 
+        <p>   I am doing B.Tech from DTU(formerly known as DCE),in Software Engineering(SE) branch,
+            Right now ,I am in 2nd year(4th sem), and  
+            I know C,C++,Java,Python,HTML,CSS programming languages.
+        </p>
+    </div>
+     <div>  
+         <a href="#"class="btn">View Profile</a>
+     </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+
+
+
+/*this is CSS code in the file named style.css*/
+
+body{
+    margin:0px; 
+    padding:0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+.card{ 
+    width: 300px;
+    height: 430px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+box-shadow: 0px 1px 10px 1px black;
+display: inline-block;
+}
+
+.upper{ 
+    height: 200px;
+    background: #7f007f;
+
+}
+.image{ 
+    background: white;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(50px,50px);
+
+}
+.image img{ 
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.lower{ 
+    height: 280px;
+    background: white;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    }
+    .lower h3,h4{ 
+        box-sizing: border-box;
+        line-height: 1;
+        font-weight: bold;
+
+    }
+    .lower h4{
+    color: #7f007f;
+    opacity: .6;
+    font-weight: bold;
+    }
+    .lower p{
+        font-size: 16px;
+        
+        margin-bottom: 30px;
+
+    }
+    .lower .btn{ 
+        padding:12px 20px;
+        background: #7f007f;
+        border: none;
+        color:coral;
+        border-radius: 30px;
+        font-size: 12px;
+        transition: all .3s ease-in;
+
+    }
+    .lower .btn:hover{ 
+        
+        background:transparent;
+        color: #7f007f;
+        border: 2px solid #7f007f;
+        
+
+    }
