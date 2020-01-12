@@ -1,0 +1,111 @@
+
+/*this is HTML code in file named as index.html*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="outer">
+      <div id ="start"> A
+
+      </div>
+    <li class="inner">Alexa (Alix)</li>
+    <li class="inner">Anjali</li>
+    <li id="x" class="inner">Ali</li>
+    <li class="inner">Asmina</li>
+    <li id="y" class="inner">Arianna</li>
+    <li class="inner">Aamir</dli>
+    <li id="z" class="inner">Ankit</li>
+    <li class="inner">Ashish</li>
+    <li class="inner">Anmol</li>
+  </div>
+  <div class="outer1">
+    <div id ="end"> B
+
+    </div>
+    <li class="inner">Ball</li>
+    <li id="bat" class="inner">Bat</li>
+    <li class="inner">Base </li>
+    <li class="inner">Body</li>
+    <li class="inner">Boomerang</li>
+    <li class="inner">BOB</li>
+    <li class="inner">ballistic</li>
+    <li class="inner">bomb</li>
+    <li class="inner">Button</li>
+    <li class="inner">balloon</li>
+    <li class="inner">breeze</li>
+    <li class="inner">bombay</li>
+    <li class="inner">Brain</li>
+
+  </div>
+
+</body>
+</html>
+
+
+
+/*this is CSS code in file named as style.css*/
+
+.outer {
+    background-color: bisque;
+    margin: 30px;
+    border: solid brown 2px;
+    padding: 40px;
+   
+    /* position: sticky;
+    top: 10px;
+    bottom: 10px; */
+    top: 0;
+    font: 40px "Crimson Text";
+    color: #fdef67;
+    
+    background-color: dodgerblue;
+    
+    
+  }
+  .outer1 {
+    background-color: bisque;
+    margin: 30px;
+    border: solid brown 2px;
+    padding: 40px;
+    top: 0;
+    font: 40px "Crimson Text";
+    color: #fdef67;
+   
+    background-color: dodgerblue;
+
+    
+   
+
+  }
+  
+  .inner {
+    background-color: mediumvioletred;
+    margin: 20px;
+    height: 60px;
+    width: 400px;
+    border: solid white 2px;
+    padding: 10px;
+    color: white;
+  }
+  
+  #start{
+    position: sticky;
+    top: 20px;
+    bottom: 20px;
+    
+  }
+  #end{
+    position: sticky;
+    top: 20px;
+    bottom: 20px;
+    
+  }
+  
