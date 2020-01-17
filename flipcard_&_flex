@@ -1,0 +1,318 @@
+//this is HTML code written in a file named as index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flip Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="flipcard h">
+        <div class="front">
+
+                <div  class="image">
+                  <img src="416x416.jpg">
+               </div>
+                
+               <div class="title">
+                <h1>
+                    Cristiano Ronaldo</h1>
+                    
+               </div>
+               <div class="des">
+                <p>
+                    Cristiano Ronaldo dos Santos( born 5 February 1985) is a Portuguese professional footballer..</p>
+               <button>Read More...</button>
+               
+               </div>
+        
+               
+               </div>
+        
+        <div class="back">
+            Cristiano Ronaldo dos Santos( born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Serie A club Juventus and captains the Portugal national team. 
+        </div>
+    </div>
+
+
+    <div class="flipcard h">
+        <div class="front">
+
+            <div  class="image">
+              <img src="190318100224-lionel-messi-exlarge-169.jpg">
+           </div>
+            
+           <div class="title">
+            <h1>
+                Lionel Messi</h1>
+                
+           </div>
+           <div class="des">
+            <p>
+                Lionel Andrés Messi  ( born 24 June 1987) is an Argentine professional footballer..</p>
+           <button>Read More...</button>
+           
+           </div>
+    
+           
+           </div>
+    
+    <div class="back">
+        Lionel Andrés Messi  ( born 24 June 1987) is an Argentine professional footballer who plays as a forward and captains both Spanish club Barcelona and the Argentina national team.
+    </div>
+    </div>
+
+
+    <div class="flipcard h">
+        <div class="front">
+
+            <div  class="image">
+              <img src="73775-large.jpeg">
+           </div>
+            
+           <div class="title">
+            <h1>
+                Antoine Griezmann</h1>
+                
+           </div>
+           <div class="des">
+            <p>
+                Antoine Griezmann ( born 21 March 1991) is a French professional footballer..</p>
+           <button>Read More...</button>
+           
+           </div>
+    
+           
+           </div>
+    
+    <div class="back">
+        Antoine Griezmann ( born 21 March 1991) is a French professional footballer who plays as a forward for Spanish club Barcelona and the French national team.
+
+    </div>
+    </div>
+
+
+
+    <div class="flipcard h">
+        <div class="front">
+
+            <div  class="image">
+              <img src="Bra-Cos_(1).jpg">
+           </div>
+            
+           <div class="title">
+            <h1>Neymar Jr.
+                </h1>
+                
+           </div>
+           <div class="des">
+            <p>
+                Neymar da Silva Santos Júnior ( born 5 February 1992) is a Brazilian professional footballer ..</p>
+           <button>Read More...</button>
+           
+           </div>
+    
+           
+           </div>
+    
+    <div class="back">
+        Neymar da Silva Santos Júnior ( born 5 February 1992) is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team.
+
+    </div>
+    </div>
+
+
+
+
+
+    <div class="flipcard h">
+        <div class="front">
+
+            <div  class="image">
+              <img src="15348414516544.jpg">
+           </div>
+            
+           <div class="title">
+            <h1>Ivan Rakitić
+                </h1>
+                
+           </div>
+           <div class="des">
+            <p>
+                Ivan Rakitić ( born 10 March 1988) is a Croatian professional footballer ..</p>
+           <button>Read More...</button>
+           
+           </div>
+    
+           
+           </div>
+    
+    <div class="back">
+        Ivan Rakitić ( born 10 March 1988) is a Croatian professional footballer who plays as a central or attacking midfielder for Spanish club Barcelona and is also the vice-captain for the Croatia national team.
+
+    </div>
+    </div>
+
+
+
+
+
+    <div class="flipcard h">
+        <div class="front">
+
+            <div  class="image">
+              <img src="skysports-eden-hazard-real-madrid_4776941.jpg">
+           </div>
+            
+           <div class="title">
+            <h1>Eden  Hazard
+                </h1>
+                
+           </div>
+           <div class="des">
+            <p>
+                Eden Michael Hazard ( born 7 January 1991) is a Belgian professional footballer ..</p>
+           <button>Read More...</button>
+           
+           </div>
+    
+           
+           </div>
+    
+    <div class="back">
+        Eden Michael Hazard ( born 7 January 1991) is a Belgian professional footballer who plays as a winger or attacking midfielder for Spanish club Real Madrid and captains the Belgium national team.
+    </div>
+    </div>
+</div>  
+</body>
+</html>
+
+
+
+
+
+/*this is CSS code written in a file named as style.css*/
+
+.flipcard {
+    position: relative;
+    width: 20%;
+    height: 400px;
+    margin: 2%;
+    perspective: 500px;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    background: aqua;
+    background-color: bisque;
+  }
+  
+  .main {      /*this is outer conatiner jisme boxes hote h*/
+    background-color: bisque;
+    /*width: 100vh;*/   /*agar ye hum nahi denge to bydefault container screen ki size lega aur uske hisaab se wrap krega*/
+    display: flex; /* or inline-flex */
+    height: 150vh;
+    flex-wrap: wrap;    /*ye boxes ko wrap krdega acc to screen size,bydefault nowrap hota h*/
+    flex-direction: row;     /* ye batata h ki kis direction me wrap honge boxes,it is bydefault */
+    
+ justify-content: flex-start;      /*This defines the alignment along the main axis.*/
+ /* justify-content: space-around; */
+ align-items: center;      
+}
+
+.flipcard {
+  /* flex: 0 1 calc(25% - 1em); */
+   display: flex; 
+   justify-content:space-between; 
+   box-sizing: border-box; 
+     /* margin: 1rem .25em; */ 
+    flex: 0 0 300px;
+ }
+  
+  .flipcard.v:hover .front, .flipcard.v.flip .front{
+    transform: rotateX(180deg);
+  }
+  .flipcard.v:hover .back, .flipcard.v.flip .back{
+    transform: rotateX(0deg);
+  }
+  .flipcard.v .back{
+    transform: rotateX(-180deg);
+  }
+  .flipcard.h:hover .front, .flipcard.h.flip .front{
+    transform: rotateY(180deg);
+  }
+  .flipcard.h:hover .back, .flipcard.h.flip .back{
+    transform: rotateY(0deg);
+  }
+  .flipcard.h .back{
+    transform: rotateY(-180deg);
+  }
+  .flipcard .front, .flipcard .back
+  {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    backface-visibility: hidden;
+  }
+  .image img{
+    width:100px;
+    height: 100px;
+     /* border-top-right-radius: 5px;
+     border-top-left-radius: 5px; */
+     align-items: center;
+     border-radius: 50%;
+     padding: 0px;
+     transform: translateX(80px);
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 20px;
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+
+   .back{ 
+    font-size: 20px;
+    text-align: center;
+    border-top-right-radius: 5px;
+   }
+
+
+  
