@@ -1,0 +1,29 @@
+body, html {
+    background-image: url("imagesBackground.jpg");
+    
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tarant-1{
+    padding: 10px;
+    position: relative;
+    top: 30%;
+}
+.tarant{
+    height: 500px;
+}
+.register-card{
+    width: 18rem;
+    position: relative;
+    left: 25%;
+    background-color: #fff0 !important;
+    border: 0px !important;
+}
+
