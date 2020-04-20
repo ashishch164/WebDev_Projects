@@ -1,0 +1,48 @@
+div {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: firebrick;
+    animation: leftright 2s infinite;
+  }
+  
+  .two {
+    animation-timing-function: ease-in;      /*easin mtlb start slow and end fast*/
+  }
+  
+   .three {
+    animation-timing-function: ease-out;      /*easeout mtlb start end and end slow*/
+   }
+  
+  .four,.five {
+     /* animation-timing-function: linear;      constant linearly time me hoga */
+    animation-timing-function: cubic-bezier(0.25, -0.49, 0.42, 1.55);    /*this is through inspect from browser(chrome)*/
+  }
+  
+  @keyframes leftright {       /*keyframes se animations hote h  aur is code se jaayega to rotate hoga aur aate wqt bhi rotate hoga and initial posn pr lot jaayega i.e 0degree rotation*/
+     0%{
+
+    }
+    50% {
+      transform: translateX(200px) rotateZ(45deg);
+    }
+    100% {
+      transform: rotate(0deg)
+    }
+  }  
+
+  /* @keyframes leftright {
+    0% {
+      background-color: red;
+    }
+    33% {
+      background-color: blue;
+      transform: rotate(45deg);
+    }
+    66% {
+      background-color: green;
+    }
+    100%{
+      background-color: red;
+    }
+  } */
