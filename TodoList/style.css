@@ -1,0 +1,38 @@
+html {
+    font-family:  sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: bisque
+  }
+  
+  input {
+    padding-top: 30px;
+    width: 500px;
+    height: 60px;
+    font-size: 1rem;
+    border: 0;
+    /* background-color: bisque; */
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  li {
+    text-align: left;
+    font-size: 2rem;
+    list-style: none;
+    margin: 0;
+  }
+  
+  li:hover {
+    text-decoration: line-through;
+  }
+  .form-group{ 
+    text-align: center;
+    padding-bottom: 25px;
+  }
