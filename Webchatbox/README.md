@@ -8,12 +8,7 @@ https://github.com/ashishch164/WebDev_Projects/blob/master/Webchatbox/images/int
 
 It has a box where user can write their message and "BEEP", "SEND"  buttons and there functionality is defined below.
 
-•	Tech stack used: HTML, CSS, JavaScript, socket.io, express.
-
-## Feature
-It has a very simple layout .User can send messages easily and receives from them also.
-
-
+•	**Tech stack used: HTML, CSS, JavaScript, socket.io, express.**
 
 Why i choose socket.io for this ??
 
@@ -28,6 +23,12 @@ Express is a minimal and flexible Node.js web application framework that provide
 1.Allows to set up middlewares to respond to HTTP Requests.
 
 2.Defines a routing table which is used to perform different actions based on HTTP Method and URL.
+
+## Feature
+It has a very simple layout .User can send messages easily and receives from them also.
+
+
+
 
 **Note : This application only works on my system,So i have to write localhost:5555 on browser's URL (where i hosted my server of this webchat application). So to start my server ,I have to write command node server.js   in command prompt ,and then server becomes active and open two windows (just to look like two person is chatting from two different windows) and now we are good to go.**
 
