@@ -10,13 +10,13 @@ It has a box where user can write their message and "BEEP", "SEND"  buttons and 
 
 •	**Tech stack used: HTML, CSS, JavaScript, socket.io, express.**
 
-Why i choose socket.io for this ??
+->Why i choose socket.io for this ??
 
 Writing a chat application with popular web applications stacks like LAMP (PHP) has normally been very hard. It involves polling the server for changes, keeping track of timestamps, and it’s a lot slower than it should be.
 
 Sockets have traditionally been the solution around which most real-time chat systems are architected, providing a bi-directional communication channel between a client and a server.
 
-Why i choose express.js for this ??
+->Why i choose express.js for this ??
 
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. Following are some of the core features of Express framework −
 
@@ -32,7 +32,7 @@ It has a very simple layout .User can send messages easily and receives from the
 
 **Note : This application only works on my system,So i have to write localhost:5555 on browser's URL (where i hosted my server of this webchat application). So to start my server ,I have to write command node server.js   in command prompt ,and then server becomes active and open two windows (just to look like two person is chatting from two different windows) and now we are good to go.**
 
-## Opearation
+## Opearations
 
 1. Sending message from first person to second person
 
