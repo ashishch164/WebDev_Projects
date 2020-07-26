@@ -1,5 +1,6 @@
-                                                              TODO-LIST
+                                                               TODO-LIST
 
+## Description
 TODO-list a list of the tasks that you have to do, or things that you want to do.
 
 •	So, I Developed a simple Todo-list, in which one person can add items(or tasks) in the list and delete recently added items by simply hovering to that item or delete all added items by a single click on button "Clear All".
@@ -12,15 +13,16 @@ https://github.com/ashishch164/WebDev_Projects/blob/master/TodoList/todo_list_%2
 
 I have uploaded my entire Code on TodoList repository ,you can see from there.
 
-
-
-Features: It has a very simple layout and user friendly type background. User can easily add or delete the tasks.
-
 It has a box where user can write their tasks and  "Add", "Clear All" ,"Clear done" buttons and there functionality is defined below.
 
 
 
-Operations: 
+## Feature: 
+It has a very simple layout and user friendly type background. User can easily add or delete the tasks.
+
+
+
+## Operations
 
 1. Adding of tasks
 
