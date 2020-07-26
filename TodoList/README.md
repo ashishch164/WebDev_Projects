@@ -53,9 +53,9 @@ When a user completes a particular task ,and he wants to delete that task,
 
 It doesn't do anything,it is basically for giving satisfaction to user that he completes all his tasks.
 
+## Visuals
 
-
-I have uploaded my todolist work on netlify platform,from where you can see how it actually look like and how it actually works,here is the link:
+I have uploaded my todolist implementation on netlify platform,from where you can see how it actually look like and how it actually works,here is the link:
 
 
 
