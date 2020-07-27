@@ -18,14 +18,12 @@ html {
     /* background-color: bisque; */
   }
   
-  input:focus {
-    outline: none;
-  }
+ 
   
   li {
     text-align: left;
     font-size: 2rem;
-    list-style: none;
+    
     margin: 0;
   }
   
