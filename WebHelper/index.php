@@ -15,6 +15,31 @@
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
+<style>
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  
+  background-size: 100%, 100%;
+  
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+</style>
 
 <!-- Navigation bar-->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
