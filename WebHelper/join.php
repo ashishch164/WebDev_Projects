@@ -139,15 +139,29 @@ if(@$submit)
   }
   else
   { 
-  	if($cno<999999999||$cno>9999999999)
-  {
-    echo '<script>alert("contact no. should be of 10 digits")</script>';
-  }
-    else 
-      { 
- 		$i=mysqli_query($con,"insert into joining(name,emailid,contactno,linkedinaddress,message) values('$name','$email',$cno,'$linkedin','$add')");
-    	echo '<script>alert("successfully Sent ")</script>';
-   	  }
+  	while($row=mysqli_fetch_array($tt))
+    { 
+        if($email==$row[1]) 
+       { $z=1;
+  			
+    	}
+	}
+	if($z==1)
+	{
+		  echo '<script>alert("message already sent by this email id")</script>';
+
+	}
+	else{ 
+          if($cno<999999999||$cno>9999999999)
+ 		 {
+  			  echo '<script>alert("contact no. should be of 10 digits")</script>';
+		  }
+		    else 
+ 	     { 
+ 			$i=mysqli_query($con,"insert into joining(name,emailid,contactno,linkedinaddress,message) values('$name','$email',$cno,'$linkedin','$add')");
+   		 	echo '<script>alert("successfully Sent ")</script>';
+   		  }
+	  }
 
   }
 }
