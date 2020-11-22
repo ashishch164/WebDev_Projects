@@ -20,10 +20,7 @@
 .carousel-control-next-icon {
   height: 100px;
   width: 100px;
-  
   background-size: 100%, 100%;
-  
-  
   background-image: none;
 }
 
