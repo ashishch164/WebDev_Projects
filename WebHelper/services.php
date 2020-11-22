@@ -71,7 +71,7 @@
 		<div class="col-md-12 col-lg-4">
 			<h1 class="display-4 text-center">Our Services</h1>
 <hr width="150px">
-			<p>Our mission is to provide businesses with the perfect website they are looking for, and that is what we do.
+			<p>We provide businesses with the perfect website they are looking for, and that is what we do.
 We build websites, which our customers can rely on, and also provide regular updates and bug fixes.
 So if you need a website for your grocery outlet, food store, medical store, business startup, educational institution, or anything you want to take online, we are here for you.</p>
 		</div>  
