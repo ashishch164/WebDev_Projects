@@ -3,21 +3,21 @@ This is my mini project on Railway Reservation System.
 This software system will be a Railway Reservation System for Administrator, Customers and staff. This system will be designed to provide an interface where the customers, admin, staff can view train details. Customer and admin can book tickets and also cancels the ticket. Moreover, the customers can view their booking history and administrator shall be able to view all customers’ booking histories. Also the customers and staff have access to update their profiles.
 More specifically, this system is designed to allow the staff and admin to maintain the details of trains and the admin can manage the details of customers as well as of staff.
 
-The staff will perform the following functions:  
-•	Login to the system
-•	Maintain train details 
-•	View Train details 
-•	Updating their personal profiles 
-•	Logout from the system
+The staff will perform the following functions: <br/> 
+•	Login to the system <br/>
+•	Maintain train details <br/>
+•	View Train details <br/>
+•	Updating their personal profiles <br/>
+•	Logout from the system<br/>
  
- The Customer will perform the following functions:
-•	Login to the system
-•	Book a ticket
-•	Cancel a ticket 
-•	View a train on a specific route
-•	View booking history 
-•	Updating their personal profiles 
-•	Logout from the system
+ The Customer will perform the following functions:<br/>
+•	Login to the system<br/>
+•	Book a ticket<br/>
+•	Cancel a ticket <br/>
+•	View a train on a specific route<br/>
+•	View booking history <br/>
+•	Updating their personal profiles <br/>
+•	Logout from the system<br/>
      
  The Admin will perform the following functions:
 •	Login to the system
