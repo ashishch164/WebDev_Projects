@@ -1,5 +1,5 @@
-This is my mini project on Railway Reservation System.
-
+This is my mini project on Railway Reservation System. </br>
+#RailwayReservationSystem </br>
 This software system will be a Railway Reservation System for Administrator, Customers and staff. This system will be designed to provide an interface where the customers, admin, staff can view train details. Customer and admin can book tickets and also cancels the ticket. Moreover, the customers can view their booking history and administrator shall be able to view all customers’ booking histories. Also the customers and staff have access to update their profiles.
 More specifically, this system is designed to allow the staff and admin to maintain the details of trains and the admin can manage the details of customers as well as of staff.
 
