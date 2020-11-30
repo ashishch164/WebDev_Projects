@@ -15,4 +15,8 @@ pnr-> https://github.com/ashishch164/WebDev_Projects/blob/master/Railway%20Reser
 staff-> https://github.com/ashishch164/WebDev_Projects/blob/master/Railway%20Reservation%20System/database%20photos/New%20Picture%20(95).jpg </br>
 train-> https://github.com/ashishch164/WebDev_Projects/blob/master/Railway%20Reservation%20System/database%20photos/New%20Picture%20(96).jpg</br>
  
- 
+Note:Please enter details manually in all the tables in the database according to your choice before executing software. 
+
+7. And last just provide the URL of your project folder in your browser like http://localhost/RRS/index.php   </br> (Note: RRS is folder name and index.php is file name)
+This will take you to the customer login page and same case for admin and staff also.
+8. Now Run software.
