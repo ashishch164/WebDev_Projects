@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: black;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.container{
+    background: white;
+    max-width:100%;
+}
+.Page-Top{
+    background: lightblue;
+   
+}
+.Heading{
+    font-size: 300%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.head{
+    display: flex;
+}
+
+.Heading img{
+    
+    margin-right: 1%;
+}
+marquee{
+    
+    color: darkred;
+    text-decoration: red;
+    font-weight: bold;
+}
+
+.navbar{
+    background: grey;
+    text-shadow: 1px 1px black;
+    padding: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.navbar-content{
+    display: flex;
+}
+
+.navbar-content li{ 
+    margin: 3%;
+    list-style-type: none;
+}
+
+.navbar-content li a{ 
+    text-decoration: none;
+    cursor: pointer;
+    color: bisque;
+}
+.list-items:hover{ 
+    background-color: red;
+
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    color: white;
+}
+.footer-text{
+    text-align: center;
+}
+
+
