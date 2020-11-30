@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+.background{
+    background: url("https://i.ytimg.com/vi/KuDn-EWuZew/maxresdefault.jpg"); 
+    height: 100vh;
+width: 100vw;
+background-size: 100% 100%;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.HeadLine{
+    color: black;
+    position: relative;
+    bottom: 14%;
+    font-size: 55px;
+    font-family: 'Merriweather', serif;
+    color: red;
+
+    text-shadow: 2px 2px black;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.credentials{
+    background-color:  white;
+    border: 5px solid grey;
+    width: 30%;
+    height: 35%;
+   align-items: center;
+   justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    
+    font-family: 'Merriweather', serif;
+}
+
+.credentials div{
+    margin: 2%;
+}
+
+.credentials div input{
+    color: black;
+    height: 20px;
+}
+
+.credentials div button{
+    background: black;
+    color: white;
+    position: relative;
+    left: -5%;
+    width: 120%;
+    height: 60%;
+    border: 3.5px solid white;
+    padding: 2%;
+    
+}
+
+.credentials div button:hover{
+    background: white;
+    color:  black;
+    border: 3.5px solid black;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    color: white;
+  }
+  .footer-text{
+    text-align: center;
+  }
