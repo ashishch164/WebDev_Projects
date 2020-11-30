@@ -1,0 +1,169 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-weight: 500;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.container {
+  
+  max-width: 100%;
+}
+.Page-Top {
+  background: lightblue;
+}
+.Heading {
+  font-size: 300%;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.head {
+  display: flex;
+}
+
+.Heading img {
+  margin-right: 1%;
+}
+marquee {
+  color: darkred;
+  text-decoration: red;
+  font-weight: bold;
+}
+.bg-image {
+  /* The image used */
+  padding-top: 10%;
+  margin-top: 10%;
+  background: url('New Picture (56).bmp');
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.navbar {
+  background: grey;
+  text-shadow: 1px 1px black;
+  padding: 1%;
+  margin-left: 0%;
+  margin-right: 0%;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+.navbar-content {
+  display: flex;
+}
+
+.navbar-content li {
+  margin: 3%;
+  list-style-type: none;
+}
+
+.navbar-content li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: bisque;
+}
+.list-items:hover {
+  background-color: red;
+}
+
+.body-container {
+ 
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+  .book-ticket-container {
+    width: 40%;
+    height: 70vh;
+    margin: auto;
+    padding: 20px 10px 20px 40px;
+    border: 2px solid black;
+    background-color: lightseagreen;
+  }
+  
+
+
+
+.paymentWrap .paymentBtnGroup {
+	max-width: 800px;
+	margin: auto;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod {
+	padding: 117px;
+	box-shadow: none;
+	position: relative;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active {
+	outline: none !important;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active .method {
+	border-color: reds;
+	outline: none !important;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+    bottom: 3px;
+    padding: 50px;
+	left: 3px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid transparent;
+    transition: all 0.5s;
+    height: 10vh;
+    width: 20vw;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.visa {
+	background-image: url("https://multichannelmerchant.com/wp-content/uploads/2019/05/visa-mastercard-logos-feature.jpg");
+}
+
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.UPI {
+	background-image: url("https://images.news18.com/ibnlive/uploads/2020/02/UPI.jpg?impolicy=website&width=534&height=356");
+}
+
+
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
+	border-color: red;
+	outline: none !important;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  background: black;
+  width: 100%;
+  color: white;
+}
+.footer-text {
+  text-align: center;
+}
