@@ -19,35 +19,35 @@ The staff will perform the following functions: <br/>
 •	Updating their personal profiles <br/>
 •	Logout from the system<br/>
      
- The Admin will perform the following functions:
-•	Login to the system
-•	Book a ticket
-•	Cancel a ticket 
-•	Maintain train details 
-•	View a train on a specific route
-•	View booking histories of customer 
-•	Add new customer and staff
-•	Updating existing customer and staff profiles 
-•	Logout from the system
+ The Admin will perform the following functions:<br/>
+•	Login to the system<br/>
+•	Book a ticket<br/>
+•	Cancel a ticket <br/>
+•	Maintain train details <br/>
+•	View a train on a specific route<br/>
+•	View booking histories of customer <br/>
+•	Add new customer and staff<br/>
+•	Updating existing customer and staff profiles <br/>
+•	Logout from the system<br/>
 
-User Interfaces
-   The RRS will have the following user-friendly and menu-driven interfaces:
-a) Login: to allow the entry of only authorized users through valid username and password.
-b) Register: to allow new customers to register themselves into the system to access RRS.
-c) View Train: to allow the admin, customers and staff to view the train details.
-d) Book ticket: to allow the admin and customers to book tickets.
-e) Booking history: to allow the admin and customer to view booking histories.
-f) Cancel ticket: to allow the admin and customers to cancel tickets.
-g) Profile details: to allow the admin, customers and staff to maintain their profiles.
-h) Maintain Train: to allow the admin and staff to add, update, delete the details of train.
-i) Logout: to allow the admin, customers and staff to logout from the system.
+User Interfaces<br/>
+   The RRS will have the following user-friendly and menu-driven interfaces:<br/>
+a) Login: to allow the entry of only authorized users through valid username and password.<br/>
+b) Register: to allow new customers to register themselves into the system to access RRS.<br/>
+c) View Train: to allow the admin, customers and staff to view the train details.<br/>
+d) Book ticket: to allow the admin and customers to book tickets.<br/>
+e) Booking history: to allow the admin and customer to view booking histories.<br/>
+f) Cancel ticket: to allow the admin and customers to cancel tickets.<br/>
+g) Profile details: to allow the admin, customers and staff to maintain their profiles.<br/>
+h) Maintain Train: to allow the admin and staff to add, update, delete the details of train.<br/>
+i) Logout: to allow the admin, customers and staff to logout from the system.<br/>
 
-
-TOOLS AND TECHNOLOGIES USED
-•	Front End Technologies:   html, CSS, Bootstrap, JavaScript
-•	Back End Technologies: PHP, mySQL
-•	IDE: Sublime Text 3 
-•	Website is hosted on: http://localhost/phpmyadmin/
-•	Server: XAMPP server
-•	Server version: 10.4.14-MariaDB - mariadb.org binary distribution
+<br/>
+TOOLS AND TECHNOLOGIES USED<br/>
+•	Front End Technologies:   html, CSS, Bootstrap, JavaScript<br/>
+•	Back End Technologies: PHP, mySQL<br/>
+•	IDE: Sublime Text 3 <br/>
+•	Website is hosted on: http://localhost/phpmyadmin/<br/>
+•	Server: XAMPP server<br/>
+•	Server version: 10.4.14-MariaDB - mariadb.org binary distribution<br/>
 
