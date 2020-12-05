@@ -11,7 +11,7 @@ https://github.com/ashishch164/WebDev_Projects/blob/master/TodoList/todo_list_%2
 
 •	Languages used: HTML5, CSS3, Bootstrap (v4.5) and JavaScript.
 
-I have uploaded my entire Code on TodoList repository ,you can see from there.
+I have uploaded my entire Code on this git repository ,you can see from there.
 
 It has a box where user can write their tasks and  "Add", "Clear All" ,"Clear done" buttons and there functionality is defined below.
 
@@ -63,7 +63,7 @@ https://ashish-todolist.netlify.app/
 
 
 
-Thank you :)
+
 
 
 
