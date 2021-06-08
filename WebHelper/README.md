@@ -8,3 +8,13 @@ As everything is digitalizing in this era, business also needs online handle, wh
 •	This website also has an about us page through which user can visit LinkedIn profiles of people behind this initiative.<br />
 •	This website also allows the developers to apply for jobs in our company by entering their contact information and LinkedIn profile.<br />
 
+## Tools and technologies Used<br />
+•	Front End Technologies:   html, CSS, Bootstrap, JavaScript <br />
+•	Back End Technologies: PHP, SQL<br />
+•	Versions of these technologies used: html5, CSS3, Bootstrap 4.0.0, ECMAScript 5, PHP 7.4.11<br />
+•	IDE: Sublime Text 3 <br />
+•	Website will be hosted on: http://localhost/phpmyadmin/<br />
+•	Server: XAMPP server<br />
+•	Server version: 10.4.14-MariaDB - mariadb.org binary distribution<br />
+
+
