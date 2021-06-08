@@ -1,4 +1,5 @@
-This is my mini project on Railway Reservation System. </br>
+This is my mini project on 
+# Railway Reservation System. </br>
 <p>#RailwayReservationSystem </p> </br>
 
 This software system will be a Railway Reservation System for Administrator, Customers and staff. This system will be designed to provide an interface where the customers, admin, staff can view train details. Customer and admin can book tickets and also cancels the ticket. Moreover, the customers can view their booking history and administrator shall be able to view all customers’ booking histories. Also the customers and staff have access to update their profiles.
@@ -31,7 +32,7 @@ The staff will perform the following functions: <br/>
 •	Updating existing customer and staff profiles <br/>
 •	Logout from the system<br/>
 
-User Interfaces<br/>
+## User Interfaces<br/>
    The RRS will have the following user-friendly and menu-driven interfaces:<br/>
 a) Login: to allow the entry of only authorized users through valid username and password.<br/>
 b) Register: to allow new customers to register themselves into the system to access RRS.<br/>
@@ -43,8 +44,8 @@ g) Profile details: to allow the admin, customers and staff to maintain their pr
 h) Maintain Train: to allow the admin and staff to add, update, delete the details of train.<br/>
 i) Logout: to allow the admin, customers and staff to logout from the system.<br/>
 
-<br/>
-TOOLS AND TECHNOLOGIES USED<br/>
+
+## Tools and Technologies Used<br/>
 •	Front End Technologies:   html, CSS, Bootstrap, JavaScript<br/>
 •	Back End Technologies: PHP, mySQL<br/>
 •	IDE: Sublime Text 3 <br/>
