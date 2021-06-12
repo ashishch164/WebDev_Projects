@@ -1,10 +1,10 @@
-
+# Personal Portfolio
 ## Introduction </br>
-I have made a 3D box. When you hover on it, it rotates and when you click on it, it moves three-dimensionally.</br></br>
-•	Tech stack used: HTML, CSS. </br></br>
+A portfolio website provides professional information about an individual  and presents a showcase of their work.</br></br>
+•	Tech stack used: HTML, CSS, Bootstrap, PHP and JavaScript. </br></br>
 I have uploaded  entire Code on this git repository, you can see from there. </br> </br>
 
 ## Visuals</br>
+I have uploaded my personal portfolio code on netlify platform, from where you can see how it actually look like and how it actually works,here is the link:
 
-
-https://3dboxhoverandclick.netlify.app
+https://ashishprofile.netlify.app
