@@ -1,0 +1,56 @@
+.outer {
+    background-color: bisque;
+    margin: 30px;
+    border: solid brown 2px;
+    padding: 40px;
+   
+    /* position: sticky;
+    top: 10px;
+    bottom: 10px; */
+    top: 0;
+    font: 40px "Crimson Text";
+    color: #fdef67;
+    
+    background-color: dodgerblue;
+    
+    
+  }
+  .outer1 {
+    background-color: bisque;
+    margin: 30px;
+    border: solid brown 2px;
+    padding: 40px;
+    top: 0;
+    font: 40px "Crimson Text";
+    color: #fdef67;
+   
+    background-color: dodgerblue;
+
+    
+   
+
+  }
+  
+  .inner {
+    background-color: mediumvioletred;
+    margin: 20px;
+    height: 60px;
+    width: 400px;
+    border: solid white 2px;
+    padding: 10px;
+    color: white;
+  }
+  
+  #start{
+    position: sticky;
+    top: 20px;
+    bottom: 20px;
+    
+  }
+  #end{
+    position: sticky;
+    top: 20px;
+    bottom: 20px;
+    
+  }
+  
