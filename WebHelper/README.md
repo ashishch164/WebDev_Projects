@@ -9,7 +9,7 @@ As everything is digitalizing in this era, business also needs online handle, wh
 •	This website also allows the developers to apply for jobs in our company by entering their contact information and LinkedIn profile.<br />
 
 ## Tools and technologies Used<br />
-•	Front End Technologies:   html, CSS, Bootstrap, JavaScript <br />
+•	Front End Technologies:   HTML, CSS, Bootstrap, JavaScript <br />
 •	Back End Technologies: PHP, SQL<br />
 •	Versions of these technologies used: html5, CSS3, Bootstrap 4.0.0, ECMAScript 5, PHP 7.4.11<br />
 •	IDE: Sublime Text 3 <br />
