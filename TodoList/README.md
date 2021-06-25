@@ -3,7 +3,7 @@
 ## Description
 TODO-list a list of the tasks that you have to do, or things that you want to do.
 
-•	So, I Developed a simple Todo-list, in which one person can add items(or tasks) in the list and delete recently added items by simply hovering to that item or delete all added items by a single click on button "Clear All".
+I Developed a simple Todo-list, in which one person can add items(or tasks) in the list and delete recently added items by simply hovering to that item or delete all added items by a single click on button "Clear All".
 
 This is how my work look like: 
 
