@@ -32,11 +32,11 @@ It has a very simple layout .User can send messages easily and receives from the
 
 **Note : This application only works on my system,So i have to write localhost:5555 on browser's URL (where i hosted my server of this webchat application). So to start my server ,I have to write command node server.js   in command prompt ,and then server becomes active and open two windows (just to look like two person is chatting from two different windows) and now we are good to go.**
 
-## Opearations
+## Operations
 
 1. Sending message from first person to second person
 
-User have to write their message in message box and then press SEND button,his message sent to 2nd person.
+User has to write their message in message box and then press SEND button, his/her message sends to 2nd person.</br>
 
 From 1st person perspective : https://github.com/ashishch164/WebDev_Projects/blob/master/Webchatbox/images/first%20message.jpg
 From 2nd person perspective : https://github.com/ashishch164/WebDev_Projects/blob/master/Webchatbox/images/first_msg_received.jpg
