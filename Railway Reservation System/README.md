@@ -46,8 +46,8 @@ i) Logout: to allow the admin, customers and staff to logout from the system.<br
 
 
 ## Tools and Technologies Used<br/>
-•	Front End Technologies:   html, CSS, Bootstrap, JavaScript<br/>
-•	Back End Technologies: PHP, mySQL<br/>
+•	Front End Technologies:   HTML, CSS, Bootstrap, JavaScript<br/>
+•	Back End Technologies: PHP, SQL<br/>
 •	IDE: Sublime Text 3 <br/>
 •	Website is hosted on: http://localhost/phpmyadmin/<br/>
 •	Server: XAMPP server<br/>
