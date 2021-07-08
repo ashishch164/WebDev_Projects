@@ -1,0 +1,68 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Disable Ctrl Key, Right click and F12 </title>
+    <script src="http://sibeeshpassion.com/content/scripts/jquery-1.11.1.min.js"></script>
+    <script>
+        // disable right click
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+        document.onkeydown = function (e) {
+
+            // disable F12 key
+            if (e.keyCode == 123) {
+                alert("not allowed");
+                return false;
+            }
+            if (e.keyCode == 18) {   //for alt
+                alert("not allowed");
+                return false;
+            }
+            if (e.keyCode == 9) {   //for tab
+                alert("not allowed");
+                return false;
+            }
+            // disable I key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                alert("not allowed");
+                return false;
+            }
+
+           
+            // disable U key
+            if (e.ctrlKey && e.keyCode == 85) {
+                alert("not allowed");
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 86) {   //for v
+                alert("not allowed");
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 67) {  //for c
+                alert("not allowed");
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 65) {   //for a
+                alert("not allowed");
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 88) {   //for x
+                alert("not allowed");
+                return false;
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+  <center>  <h3> Try any ctrl shortcut commands like ctrl + 'a', 'c', 'u', x', 'v', 'i'. Right click and F12 is also disabled.
+</h3>   </center>  
+</body>
+
+</html>
