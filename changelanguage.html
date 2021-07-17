@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Change language</title>
+</head>
+<body>
+  
+  <p>
+    Click on the buttons below to change
+    the language of the webpage.
+  </p>
+
+  <!-- Define the buttons that will 
+  change the language of the page 
+  and reload it -->
+  <button onclick="changeLanguage('eng')">
+    Change to English
+  </button>
+  <button onclick="changeLanguage('es')">
+    Change to Spanish
+  </button>
+  <button onclick="changeLanguage('hin')">
+    Change to Hindi
+  </button>
+
+  <!-- Define the content of the page
+  that would be changed -->
+  <p id="siteContent">
+    Welcome
+  </p>
+
+
+  <script>
+    // Create a function to change
+    // the hash value of the page
+    function changeLanguage(lang) {
+      location.hash = lang;
+      location.reload();
+    }
+
+    // Define the language reload anchors
+    var language = {
+      eng: {
+        welcome: "Welcome to the GeeksforGeeks "
+      },
+      es: {
+        welcome: "Bienvenido "
+      },
+      hin: {
+        welcome: " आपका स्वागत है! "
+
+      }
+    };
+
+    // Check if a hash value exists in the URL
+    if (window.location.hash) {
+
+      // Set the content of the webpage 
+      // depending on the hash value
+      if (window.location.hash == "#es") {
+        siteContent.textContent =
+          language.es.welcome;
+      }
+      else if (window.location.hash == "#hin") {
+        siteContent.textContent =
+          language.hin.welcome;
+      }
+    }
+  </script>
+
+</body>
+</html>
