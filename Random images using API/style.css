@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 25%;
+    padding-top: 6%;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+  }
