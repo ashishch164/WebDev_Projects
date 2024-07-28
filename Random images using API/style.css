@@ -1,16 +1,42 @@
+/* General body styles */
 body {
     margin: 0;
     padding: 0;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
 }
 
-img {
-    width: 50%;
-    height: 50%;
-    text-align: center;
+/* Container for centering image */
+#imageContainer {
+    width: 100%;
+    max-width: 800px; /* Set a max-width to control the maximum size of the image container */
+    height: auto; /* Adjust height automatically based on content */
+    display: flex;
     justify-content: center;
-    padding-top: 6%;
+    align-items: center;
+}
+
+/* Image styles */
+img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Ensure the image does not exceed the container's width */
+    max-height: 80vh; /* Ensure the image does not exceed the viewport height */
+    object-fit: cover; /* Crop the image to fit the container */
     display: block;
-    max-width: 100%;
-    object-fit: cover;
+}
+
+/* Media queries for mobile screens */
+@media (max-width: 600px) {
+    #imageContainer {
+        max-width: 100%; /* Allow container to take full width on smaller screens */
+        padding: 0 10px; /* Add padding for better spacing on mobile */
+    }
+
+    img {
+        max-height: 60vh; /* Adjust max-height for smaller screens */
+    }
 }
