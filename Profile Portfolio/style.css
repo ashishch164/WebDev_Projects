@@ -47,6 +47,11 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+.text-container{ 
+position:relative;
+max-width:100%;
+height:50px;
+}
 section .title{
     position: relative;
     text-align: center;
@@ -132,6 +137,7 @@ section .title::after{
     font-size: 23px;
     cursor: pointer;
     display: none;
+    padding-top: 10px;
 }
 .scroll-up-btn{
     position: fixed;
@@ -580,9 +586,9 @@ footer span a:hover{
 
 
 /* responsive media query start */
-@media (max-width: 1104px) {
+@media (max-width: 1140px) {
     .about .about-content .left img{
-        height: 350px;
+        height:450px;
         width: 350px;
     }
 }
@@ -633,7 +639,7 @@ footer span a:hover{
         padding: 10px 30px;
     }
     .max-width{
-        max-width: 930px;
+        max-width: 990px;
     }
     .about .about-content .column{
         width: 100%;
